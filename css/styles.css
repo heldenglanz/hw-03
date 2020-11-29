@@ -1,0 +1,226 @@
+:root {
+  font-family: "Roboto", "Raleway"; sans-serif;
+  text-decoration:hover: underline;
+  a {text-decoration: none;}
+  --accent-color: #2196F3;
+  --second-text-color: #757575;
+  --button-color: #ffffff;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway"; sans-serif;
+
+}
+body{
+  font-family: var(--main-font);
+  color: #000000;
+  font-style: normal;
+}
+/*--------header-------*/
+/*title*/
+.main-title {
+  font-family: var(--secondary-font), oleo-script;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.studio-word {
+  color: black;
+}
+/*navigation*/
+.navigation-studio,
+.navigation-portfolio,
+.navigation-contacts,
+.mail,
+.phone-number {
+  height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation-studio {
+  width: 49px;
+  color: #212121;
+}
+.navigation-portfolio {
+  width: 77px;
+  color: #212121;
+}
+.navigation-contacts {
+  width: 68px;
+  color: #212121;
+}
+.mail {
+  width: 135px;
+  color: #212121;
+}
+.phone-number {
+  width: 122px;
+  color: #757575;
+}
+.navigation-studio:hover,
+.navigation-portfolio:hover,
+.navigation-contacts:hover,
+.navigation-studio:focus,
+.navigation-portfolio:focus,
+.navigation-contacts:focus,
+.navigation-studio:active,
+.navigation-portfolio:active,
+.navigation-contacts:active {
+  text-decoration: underline;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.mail:hover,
+.mail:focus,
+.mail:active,
+.address-text,
+.mail-text,
+.phone-number-footer {
+  text-decoration: none;
+  cursor: pointer;
+}
+.navigation-studio:visited,
+.navigation-portfolio:visited,
+.navigation-contacts:visited,
+.mail:visited {
+}
+.navigation-set,
+.features-points,
+.images-set,
+.team-set,
+.buttons-set,
+.footer-navigation-set {
+  list-style: none; 
+  text-decoration: none;
+}
+/*---header end---*/
+/*----first section---*/
+.first-section {
+  background-color: #2f303a;
+}
+.first-title {
+  width: 696px;
+  height: 120px;
+  font-weight: 900;
+  font-family: var(--main-font);
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.firsttitle {
+  display: none;
+}
+.button {
+  background: #F5F4FA;
+  font-weight: bold;
+  line-height: 1.88;
+  color: #212121;
+}
+.button:active,
+.button:hover,
+.button:focus
+ {
+background: #2196F3;
+color: var(--button-color);
+}
+/*---------*/
+/*----features---*/
+.features {
+}
+.feature-title-one,
+.feature-title-two,
+.feature-title-three,
+.feature-title-four,
+.feature-text-one,
+.feature-text-two,
+.feature-text-three,
+.feature-text-four { 
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.feature-text-one,
+.feature-text-two,
+.feature-text-three,
+.feature-text-four {
+  height: 75px;
+  font-weight: 400;
+  line-height: 1.71;
+  font-size: 14px;
+  text-transform: lowercase;
+  color: var(--second-text-color)
+}
+/*----features end---*/
+/*----portfolio-----*/
+.portfolio {
+  background-color: #ffffff;
+}
+.portfolio-title,
+.team-title {
+  width: 376px;
+  height: 42px;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*---our team----*/
+.team-title {
+  width: 264px;
+  height: 42px;
+}
+.name-title-igor,
+.name-title-olga,
+.name-title-nikolay,
+.name-title-mikhail {
+  height: 19px;
+  top: 1925px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.span-title-one,
+.span-title-two,
+.span-title-three,
+.span-title-four {
+  width: 130px;
+  height: 19px;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.footer {
+  background: #2f303a;
+}
+.footer-studio-word {
+  color: #ffffff;
+}
+.address {
+  font-style: normal;
+}
+.address-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.mail-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.phone-number-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
