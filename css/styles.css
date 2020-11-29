@@ -14,7 +14,49 @@ body{
   color: #000000;
   font-style: normal;
 }
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+}
 /*--------header-------*/
+.header {
+  width: 1600px;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1170px;
+  margin-right: 215px;
+  margin-left: 215px;
+  
+}
+.navigation-container {
+  display: flex;
+  align-items: center;
+}
+.navigation-set {
+  display: flex;
+
+}
+.header .main-title {
+  margin-right: 93px;
+}
+.navigation-studio,
+.navigation-portfolio {
+margin-right: 40px;
+}
+.header .mail {
+margin-right: 40px;
+margin-left: 331px;
+}
 /*title*/
 .main-title {
   font-family: var(--secondary-font), oleo-script;
@@ -97,10 +139,12 @@ body{
 /*---header end---*/
 /*----first section---*/
 .first-section {
+  width: 1600px;
+  height: 600px;
+   padding-bottom: 200px;
   background-color: #2f303a;
 }
 .first-title {
-  width: 696px;
   height: 120px;
   font-weight: 900;
   font-family: var(--main-font);
@@ -108,27 +152,49 @@ body{
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
+  padding-left: 452px;
+  padding-right: 452px;
+  padding-top: 200px;
   color: #ffffff;
 }
-.firsttitle {
-  display: none;
-}
 .button {
+  min-width: 200px;
+  height: 50px;
   background: #F5F4FA;
   font-weight: bold;
   line-height: 1.88;
+  border-radius: 4px;
+  margin-top: 230px;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-bottom: 200px;
+  align-items: center;
   color: #212121;
+  cursor: pointer;
 }
 .button:active,
 .button:hover,
-.button:focus
- {
+.button:focus {
 background: #2196F3;
 color: var(--button-color);
 }
 /*---------*/
 /*----features---*/
 .features {
+width: 1600px;
+}
+.features-points{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.feature-points:not(:last-child){
+  padding-right: 30px;
 }
 .feature-title-one,
 .feature-title-two,
@@ -138,6 +204,7 @@ color: var(--button-color);
 .feature-text-two,
 .feature-text-three,
 .feature-text-four { 
+   width: 270px;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -159,21 +226,49 @@ color: var(--button-color);
 /*----features end---*/
 /*----portfolio-----*/
 .portfolio {
+  width: 1600px;
   background-color: #ffffff;
 }
 .portfolio-title,
 .team-title {
-  width: 376px;
   height: 42px;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
   color: #212121;
 }
-/*---our team----*/
+.portfolio-title{
+  width: 376px;
+  margin-left: 612px;
+  margin-right: 612px;
+}
+
+
+.images-set {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-bottom: 188px;
+}
+.images-point:not(:last-child){
+  margin-right: 30px;
+}
+/*team*/
 .team-title {
   width: 264px;
-  height: 42px;
+  padding-left: 668px;
+  padding-right: 668px;
+}
+.team-set{
+  display: flex;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.team-imagine:not(:last-child){
+  padding: 30px;
 }
 .name-title-igor,
 .name-title-olga,
@@ -199,12 +294,32 @@ color: var(--button-color);
   color: var(--second-text-color);
 }
 .footer {
+  display: flex;
+  flex-direction: column;
+width: 1600px;
+height: 252px;
   background: #2f303a;
+}
+.footer-container {
+  display: flex;
+   padding-right: 1154px;
+ padding-left: 215px;
+ padding-bottom: 111px;
+}
+.footer-navigation-set {
+  display: flex;
+ flex-direction: column;
+
 }
 .footer-studio-word {
   color: #ffffff;
 }
+.footer .main-title{
+  width: 145px;
+  height: 31px;
+}
 .address {
+  height: 21px;
   font-style: normal;
 }
 .address-text {
