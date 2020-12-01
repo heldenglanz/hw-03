@@ -66,6 +66,7 @@ margin-left: 331px;
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196F3;
+  text-decoration: none;
 }
 .studio-word {
   color: black;
@@ -108,12 +109,9 @@ margin-left: 331px;
 .navigation-contacts:hover,
 .navigation-studio:focus,
 .navigation-portfolio:focus,
-.navigation-contacts:focus,
-.navigation-studio:active,
-.navigation-portfolio:active,
-.navigation-contacts:active {
+.navigation-contacts:focus {
   text-decoration: underline;
-  color: var(--accent-color);
+  color: #2196F3;
   cursor: pointer;
 }
 .mail:hover,
@@ -137,13 +135,14 @@ margin-left: 331px;
 .buttons-set,
 .footer-navigation-set {
   list-style: none; 
+  color: inherit;
 }
 /*---header end---*/
 /*----first section---*/
 .first-section {
   width: 1600px;
   height: 600px;
-   padding-bottom: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
 .first-title {
@@ -259,17 +258,22 @@ width: 1600px;
 /*team*/
 .team-container {
   width: 1600px;
+  background: #F5F4FA;
+  height: 648px;
 }
 .team-title {
   min-width: 264px;
   padding-left: 668px;
   padding-right: 668px;
   padding-bottom: 50px;
+  padding-top: 94px;
+  
 }
 .team-set{
   display: flex;
   margin-left: 215px;
   margin-right: 215px;
+  padding-top: 50px;
 }
 .team-imagine{
   display: inline-flex;
@@ -277,6 +281,7 @@ width: 1600px;
   width: 270px;
   height: 368px;
 
+  background: #ffffff;
 }
 .team-imagine:not(:last-child){
   margin-right: 30px;
@@ -321,14 +326,9 @@ width: 1600px;
  flex-direction: column;
  padding-right: 1154px;
  padding-left: 215px;
- padding-top: 60px;
  padding-bottom: 60px;
 }
-.footer .main-title{
-  font-style: r;
- width: 145px;
- height: 31px;
-}
+
 .footer-navigation-set {
   display: flex;
  flex-direction: column;
@@ -338,17 +338,30 @@ width: 1600px;
  
   color: #ffffff;
 }
-.footer .main-title{
+.footer-main-title{
   width: 145px;
   height: 31px;
-    height: 120px;
+  height: 120px;
   font-weight: 700;
-  font-family: var(--secondary-font);
+  margin-right: 1240px;
   font-style: normal;
+  padding-top: 60px;
+  color: #2196F3;
+  font-family: var(--secondary-font), oleo-script;
+  text-decoration: none;
+  line-height: 1.19;
+  font-style: bold;
+  text-align: left;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+.footer-navigation-point:not(:last-child){
+  padding-bottom: 9px;
 }
 .address {
   height: 21px;
   font-style: normal;
+  
 }
 .address-text {
   font-size: 14px;
@@ -361,11 +374,12 @@ width: 1600px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
 }
 .phone-number-footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color:rgba(255, 255, 255, 0.6);
 }
