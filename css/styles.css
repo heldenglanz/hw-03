@@ -32,21 +32,19 @@ body{
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  border-bottom: 1px solid #ECECEC;
   flex-shrink: 0;
 }
+.border{ 
+border-bottom: 1px solid #ECECEC;
+}
+
 .container {
   display: flex;
   align-items: center;
-  width: 1200px;
+  max-width: 1200px;
   margin-right: 215px;
   margin-left: 215px;
 
-}
-.mail {
-  margin-right: 0px;
-  padding-right: 0;
-  
 }
 .portfolio-title {
 display: none;
@@ -164,6 +162,17 @@ margin-left: 331px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.mail {
+  width: 135px;
+  margin-right: 0px;
+  padding-right: 0;
+ font-weight: 500;
+  color: #757575;
+}
+.phone-number {
+  width: 122px;
+  color: #757575;
+}
 .navigation-studio {
   width: 49px;
   color: #212121;
@@ -175,14 +184,6 @@ margin-left: 331px;
 .navigation-contacts {
   width: 68px;
   color: #212121;
-}
-.mail {
-  width: 135px;
-  color: #212121;
-}
-.phone-number {
-  width: 122px;
-  color: #757575;
 }
 .navigation-studio:hover,
 .navigation-portfolio:hover,
@@ -221,8 +222,9 @@ margin-left: 331px;
 /*---header end---*/
 /*----first section---*/
 .first-section {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
+  margin: auto;
   padding-bottom: 200px;
   background-color: #2f303a;
 }
@@ -247,10 +249,11 @@ margin-left: 331px;
   font-weight: bold;
   line-height: 1.88;
   border-radius: 4px;
-  margin-top: 230px;
+  margin-top: 146px;
   margin-left: 700px;
   margin-right: 700px;
-  margin-bottom: 200px;
+  margin-bottom: 210px;
+  text-align: center;
   align-items: center;
   color: #212121;
   cursor: pointer;
