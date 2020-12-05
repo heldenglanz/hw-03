@@ -29,10 +29,10 @@ body{
 .header {
   width: 1600px;
   display: flex;
-  align-items: center;
+  margin: auto;
   padding-top: 32px;
   padding-bottom: 32px;
-  flex-shrink: 0;
+
 }
 .border{ 
 border-bottom: 1px solid #ECECEC;
@@ -163,13 +163,15 @@ margin-left: 331px;
   letter-spacing: 0.02em;
 }
 .mail {
+  text-align: right;
   width: 135px;
   margin-right: 0px;
-  padding-right: 0;
+  padding-right: 0px;
  font-weight: 500;
   color: #757575;
 }
 .phone-number {
+  text-align: right;
   width: 122px;
   color: #757575;
 }
@@ -360,12 +362,13 @@ width: 1600px;
 }
 /*team*/
 .team-container {
+  margin: auto;
   width: 1600px;
   background: #F5F4FA;
   height: 648px;
 }
 .team-title {
-  min-width: 264px;
+  max-width: 264px;
   padding-left: 668px;
   padding-right: 668px;
   padding-bottom: 50px;
@@ -417,6 +420,7 @@ width: 1600px;
 }
 /*footer*/
 .footer {
+  margin: auto;
   display: flex;
   flex-direction: column;
   width: 1600px;
@@ -424,11 +428,13 @@ width: 1600px;
   background: #2f303a;
 }
 .footer-container {
+  width: 1600px;
+  margin-right: auto;
  display: flex;
  flex-direction: column;
- padding-right: 1154px;
+ 
  padding-left: 215px;
- padding-bottom: 60px;
+ 
 }
 
 .footer-navigation-set {
