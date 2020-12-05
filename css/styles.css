@@ -259,6 +259,7 @@ margin-left: 331px;
   color: #ffffff;
 }
 .button-main {
+  position: absolute;
   min-width: 200px;
   height: 50px;
   background: #F5F4FA;
