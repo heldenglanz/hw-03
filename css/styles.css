@@ -246,12 +246,12 @@ margin-left: 331px;
 }
 .container-first-section{
   box-sizing: border-box;
-  align-items: center;
   width: 696px;
   min-height: 120px;
   margin-left: 452px;
   margin-right: 452px;
   padding-top: 200px;
+  padding-bottom: 280px;
 }
 .first-title {
   position: absolute;
