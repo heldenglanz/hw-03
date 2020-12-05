@@ -238,26 +238,24 @@ margin-left: 331px;
 /*---header end---*/
 /*----first section---*/
 .first-section {
+  box-sizing: border-box;
   max-width: 1600px;
   height: 600px;
   margin: auto;
-  padding-bottom: 200px;
   background-color: #2f303a;
 }
 .container-first-section{
   box-sizing: border-box;
   align-items: center;
-  min-width: 696px;
+  width: 696px;
   min-height: 120px;
-  text-transform: uppercase;
-  margin: auto;
-  padding-left: 452px;
-  padding-right: 452px;
+  margin-left: 452px;
+  margin-right: 452px;
   padding-top: 200px;
 }
 .first-title {
   position: absolute;
- display: inline-block;
+  display: inline-block;
   font-weight: 900;
   font-family: var(--main-font);
   font-size: 44px;
