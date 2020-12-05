@@ -367,11 +367,15 @@ width: 1600px;
   margin-right: 612px;
 }
 .images-set {
+  max-width: 1600px;
   display: flex;
   padding-top: 50px;
   padding-left: 215px;
   padding-right: 215px;
   padding-bottom: 188px;
+}
+.images-point{
+  margin: auto;
 }
 .images-point:not(:last-child){
   margin-right: 30px;
