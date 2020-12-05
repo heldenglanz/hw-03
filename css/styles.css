@@ -57,7 +57,10 @@ border-bottom: 1px solid #ECECEC;
 display: none;
 }
 .portfolio {
+  align-items: center;
   width: 1600px;
+  margin-left: 215px;
+  margin-right: 215px;
   margin: auto;
 }
 .portfolio-container {
