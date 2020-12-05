@@ -288,6 +288,7 @@ color: var(--button-color);
 /*---------*/
 /*----features---*/
 .features {
+  margin: auto;
 width: 1600px;
 }
 .features-points{
@@ -332,6 +333,7 @@ width: 1600px;
 /*----features end---*/
 /*----portfolio-----*/
 .portfolio {
+  margin: auto;
   width: 1600px;
   background-color: #ffffff;
 }
@@ -368,9 +370,9 @@ width: 1600px;
   height: 648px;
 }
 .team-title {
-  max-width: 264px;
-  padding-left: 668px;
-  padding-right: 668px;
+  min-width: 264px;
+  
+  
   padding-bottom: 50px;
   padding-top: 94px;
   
