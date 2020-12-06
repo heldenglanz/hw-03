@@ -34,12 +34,12 @@ body{
 /*--------header-------*/
 .header {
   background: fixed;
-  width: 1600px;
+  max-width: 1600px;
   display: flex;
   margin: auto;
   padding-top: 32px;
   padding-bottom: 32px;
-
+border: 5px solid #2196F3
 }
 .border{ 
 border-bottom: 1px solid #ECECEC;
@@ -63,8 +63,9 @@ display: none;
   margin: auto;
 }
 .portfolio-container {
-  width: 1600px;
-  height: 1628px;
+  min-width: 1600px;
+  min-height: 1628px;
+  border: 5px solid #2196F3
 }
 .portfolio-images-container {
   justify-content: space-between;
@@ -214,8 +215,8 @@ margin-left: 331px;
   color: #2196F3;
   cursor: pointer;
 }
-.portfolio-container .navigation-portfolio:active {
-  color: #2196F3;
+.navigation-portfolio:active {
+color: #2196F3;
 }
 .mail:hover,
 .mail:focus,
@@ -453,16 +454,17 @@ width: 1600px;
 }
 /*footer*/
 .footer {
-  max-width: 100%;
+  display: block;
+  
   margin: auto;
-  display: flex;
+
   flex-direction: column;
-  max-width: 1600px;
+  width: 1600px;
   height: 252px;
   background: #2f303a;
 }
 .footer-container {
-  width: 1600px;
+  
   margin-right: auto;
  display: flex;
  flex-direction: column;
