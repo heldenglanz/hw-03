@@ -205,10 +205,17 @@ margin-left: 331px;
 .navigation-contacts:hover,
 .navigation-studio:focus,
 .navigation-portfolio:focus,
-.navigation-contacts:focus {
-  text-decoration: underline;
+.navigation-contacts:focus,
+.mail:hover,
+.mail:focus,
+.phone-number:hover,
+.phone-number:focus {
+  text-decoration: none;
   color: #2196F3;
   cursor: pointer;
+}
+.portfolio-container .navigation-portfolio:active {
+  color: #2196F3;
 }
 .mail:hover,
 .mail:focus,
