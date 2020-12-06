@@ -33,6 +33,7 @@ body{
 }
 /*--------header-------*/
 .header {
+  background: fixed;
   width: 1600px;
   display: flex;
   margin: auto;
@@ -363,7 +364,7 @@ width: 1600px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 30px;
   color: #212121;
 }
 .portfolio-title{
@@ -391,6 +392,7 @@ width: 1600px;
   width: 1600px;
   background: #F5F4FA;
   height: 648px;
+  padding-bottom: 94px;
 }
 .team-title {
   min-width: 264px;
@@ -398,7 +400,7 @@ width: 1600px;
   padding-top: 94px;
 }
 .team-set{
-   max-width: 100%;
+  max-width: 100%;
   display: flex;
   margin-left: 215px;
   margin-right: 215px;
@@ -409,6 +411,7 @@ width: 1600px;
   flex-direction: column;
   width: 270px;
   height: 368px;
+  padding-bottom: 94px;
   background: #ffffff;
 }
 .team-imagine:not(:last-child){
