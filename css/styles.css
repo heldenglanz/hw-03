@@ -81,7 +81,7 @@ border-bottom: 1px solid #ECECEC;
   display: flex;
   justify-content: center;
   
-  margin-top: 94px;
+  
 }
 
 .header .main-title {
@@ -115,12 +115,13 @@ justify-content: center;
 .portfolio-images-container {
  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  
   width: 1200px;
   min-height: 1548px;
   
  margin: auto;
-  
+padding-top: 94px;
+padding-bottom: 94px;
 
  
  flex-direction: column;
@@ -129,13 +130,13 @@ justify-content: center;
 }
 .images-portfolio-set {
   display: flex;
-  
+  align-items: center;
   
   flex-wrap: wrap;
   min-width: 1170px;
   min-height: 1360px;
-  padding-bottom: 94px;
-  margin: auto;
+  
+ 
   
  
   
@@ -166,7 +167,7 @@ justify-content: center;
   
 }
 .box-image {
-  flex-direction: column;
+ 
   padding-top: 20px;
   padding-bottom: 20px;
 padding-left: 24px;
