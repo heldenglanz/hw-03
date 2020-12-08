@@ -441,15 +441,15 @@ justify-content: center;
   
 }
 .team-set{
-  align-items: center;
+  
   display: flex;
-  justify-content: center;
+ 
  
 }
 .team-imagine{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-justify-content: center;
+
 align-items: center;
   margin-top: 50px;
   margin-bottom: 94px;
@@ -458,18 +458,25 @@ align-items: center;
 .team-imagine:not(:last-child){
   margin-right: 30px;
 }
+.titles{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .name-title-igor,
 .name-title-olga,
 .name-title-nikolay,
 .name-title-mikhail {
-  height: 19px;
+ 
   font-weight: bold;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  
   color: #212121;
 }
 .span-title-one,
@@ -480,8 +487,7 @@ align-items: center;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  padding-top: 10px;
-  padding-bottom: 30px;
+ margin-top: 10px;
   text-align: center;
   color: var(--second-text-color);
 }
