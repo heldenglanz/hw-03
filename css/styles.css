@@ -81,11 +81,9 @@ border-bottom: 1px solid #ECECEC;
   display: flex;
   justify-content: center;
   
-  margin: auto;
+  margin-top: 94px;
 }
-.button-portfolio:not(:last-child){
-  margin-right: 50px;
-}
+
 .header .main-title {
   margin-right: 93px;
 }
@@ -136,29 +134,26 @@ justify-content: center;
   flex-wrap: wrap;
   min-width: 1170px;
   min-height: 1360px;
-  
-  
+  padding-bottom: 94px;
+  margin: auto;
   
  
   
 }
 .name-image{
-  width: 333px;
-  height: 36px;
+  
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-bottom: 34px;
+ 
   
   letter-spacing: 0.06em;
 }
 .second-name-image {
-  width: 322px;
-  height: 30px;
+  
+  
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -166,24 +161,31 @@ justify-content: center;
   line-height: 187%;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-top: 4px;
-  text-align: left;
-  padding-left: 24px;
+  
+  
+  
+}
+.box-image {
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+padding-left: 24px;
+padding-right: 24px;
 }
 .image-bg {
   margin: auto;
-  width: 370px;
-  height: 404px;
+  
   background-color:#ffffff;
  
   border: 1px solid #EEEEEE;
 }
+
 .navigation-studio,
 .navigation-portfolio,
 .navigation-contacts,
 .mail,
 .phone-number {
-  height: 16px;
+  
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
