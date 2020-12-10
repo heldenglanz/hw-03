@@ -7,6 +7,7 @@
   --button-color: #ffffff;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway"; sans-serif;
+  --container-assault: 20px;
 }
 *,
 *::before,
@@ -30,6 +31,11 @@ body{
 *::after {
   margin: 0px;
   padding: 0px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 /*--------header-------*/
 .header {
@@ -77,12 +83,7 @@ border-bottom: 1px solid #ECECEC;
 .navigation-set {
   display: flex;
 }
-.buttons-set {
-  display: flex;
-  justify-content: center;
-  
-  
-}
+
 
 .header .main-title {
   margin-right: 93px;
@@ -114,7 +115,7 @@ justify-content: center;
 
 .portfolio-images-container {
  display: flex;
-  justify-content: center;
+  
   
   width: 1200px;
   min-height: 1548px;
@@ -128,28 +129,39 @@ padding-bottom: 94px;
 
  
 }
+.buttons-set {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  
+}
 .images-portfolio-set {
   display: flex;
-  align-items: center;
+    margin-left: auto;
+  margin-right: auto;
   
   flex-wrap: wrap;
   min-width: 1170px;
-  min-height: 1360px;
-  border: 5px solid color #666666;
+  height: 1360px;
+margin-top: -20px;
+margin-left: -20px;
+  
 }
 .image-bg {
-  margin: auto;
-  
+  height: 410px;
   background-color:#ffffff;
- border: 10px solid color #666666;
+  margin-left: 20px;
+ margin-top: 20px;
   border: 1px solid #EEEEEE;
 }
 .box-image {
+  
+  height: 110px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  border: 10px solid color blueviolet;
+  
 }
 .name-image{
   
@@ -163,7 +175,6 @@ padding-bottom: 94px;
   letter-spacing: 0.06em;
 }
 .second-name-image {
-  
   
   font-family: Roboto;
   font-style: normal;
