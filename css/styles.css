@@ -93,6 +93,9 @@ padding-right: 331px;
 .navigation-portfolio {
 padding-right: 40px;
 }
+.blue:visited{
+  color: #2196F3;
+}
 .header .mail {
 padding-right: 50px;
 }
@@ -225,8 +228,8 @@ margin-top: 20px;
   color: #2196F3;
   cursor: pointer;
 }
-.container .blue:visited{
-color: #2196F3;
+.navigation-portfolio:active{
+  color: #2196F3;
 }
 .mail:hover,
 .mail:focus,
@@ -313,7 +316,7 @@ padding-top: 200px;
   color: #212121;
   cursor: pointer;
   border: none;
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 
@@ -491,7 +494,7 @@ align-items: center;
   text-align: center;
   color: var(--second-text-color);
 }
-/*footer*/
+/*FOOTER*/
 .footer {
   
   display: flex;
@@ -499,16 +502,14 @@ align-items: center;
   margin: auto;
  
 
-  
-  min-width: 1600px;
-  min-height: 252px;
+  padding-top: 60px;
+ padding-bottom: 60px;
   background: #2f303a;
 }
 .footer-container {
  display: flex;
- min-height: 252px;
- margin-left: auto;
- margin-right: auto;
+ 
+
   min-width: 1600px;
 margin: auto;
  flex-direction: column;
@@ -525,7 +526,7 @@ margin: auto;
   color: #ffffff;
 }
 .footer-main-title{
-  width: 145px;
+  
  padding-bottom: 20px;
   
   font-weight: 700;
