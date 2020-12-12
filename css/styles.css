@@ -137,12 +137,11 @@ padding-bottom: 94px;
 }
 .images-portfolio-set {
   display: flex;
-    margin-left: auto;
-  margin-right: auto;
+  
   
   flex-wrap: wrap;
   min-width: 1170px;
-  height: 1360px;
+  
 margin-top: -20px;
 margin-left: -20px;
   
@@ -333,16 +332,21 @@ color: var(--button-color);
 /*---------*/
 /*----features---*/
 .features {
+ margin: auto;
+ width: 1170px;
+ display: flex;
+ justify-content: space-between;
+ list-style-type: none;
  
- justify-content: center;
- 
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
 .features-points{
  
   display: flex;
   justify-content: space-between;
   
-  width: 1170px;
+
   
   margin-top: 94px;
   margin-bottom: 94px;
