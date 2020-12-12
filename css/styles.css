@@ -337,9 +337,9 @@ color: var(--button-color);
  margin: auto;
  align-items: center;
  display: flex;
- justify-content: center;
+ justify-content: space-between;
  list-style-type: none;
- 
+ width: 1170px;
  padding-top: 94px;
  padding-bottom: 94px;
 }
