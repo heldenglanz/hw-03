@@ -1,6 +1,6 @@
 :root {
   font-family: "Roboto", "Raleway"; sans-serif;
-  text-decoration:hover: underline;
+  
   a {text-decoration: none;}
   --accent-color: #2196F3;
   --second-text-color: #757575;
@@ -40,7 +40,7 @@ img {
 /*--------header-------*/
 .header {
  
-  min-width: 1600px;
+  
   align-items: center;
   justify-content: center;
   display: flex;
@@ -64,8 +64,8 @@ border-bottom: 1px solid #ECECEC;
   font-family: var(--secondary-font), oleo-script;
   font-weight: 700;
   line-height: 1.19;
-  font-style: bold;
-  text-align: left;
+  
+ 
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196F3;
@@ -78,6 +78,7 @@ border-bottom: 1px solid #ECECEC;
 .navigation-container {
   display: flex;
   align-items: center;
+  
 }
 .navigation-set {
   display: flex;
@@ -91,19 +92,22 @@ padding-right: 331px;
 }
 .navigation-studio,
 .navigation-portfolio {
-padding-right: 40px;
+margin-right: 40px;
 }
-.blue:visited{
+.blue:visited {
   color: #2196F3;
 }
+.black:visited {
+  color:#212121
+}
 .header .mail {
-padding-right: 50px;
+margin-right: 50px;
 }
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+ 
  
 }
 .portfolio-title {
@@ -185,8 +189,8 @@ margin-top: 20px;
 .navigation-contacts,
 .mail,
 .phone-number {
-  
   font-weight: 500;
+  
   font-size: 14px;
   text-decoration: none;
   line-height: 1.14;
@@ -195,19 +199,17 @@ margin-top: 20px;
 .mail {
   
   
-  
- font-weight: 500;
+ 
   color: #757575;
 }
 .phone-number {
   
- 
   color: #757575;
   
 }
 .navigation-studio {
   
-  color: #212121;
+  color:#2196F3;
 }
 .navigation-portfolio {
   
@@ -231,7 +233,7 @@ margin-top: 20px;
   color: #2196F3;
   cursor: pointer;
 }
-.navigation-portfolio:active{
+.navigation-studio:active{
   color: #2196F3;
 }
 .mail:hover,
@@ -239,6 +241,7 @@ margin-top: 20px;
 .mail:active,
 .address-text,
 .mail-text,
+.phone-number,
 .phone-number-footer {
   text-decoration: none;
   cursor: pointer;
@@ -342,8 +345,8 @@ color: var(--button-color);
  justify-content: space-between;
  list-style-type: none;
  width: 1170px;
- padding-top: 94px;
- padding-bottom: 94px;
+ margin-top: 94px;
+ margin-bottom: 94px;
 }
 .features-points{
  
@@ -413,7 +416,7 @@ color: var(--button-color);
   color: #212121;
 }
 .portfolio-title-first{
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .portfolio-title{
   
@@ -470,8 +473,8 @@ align-items: center;
   flex-direction: column;
   justify-content: space-around;
   
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .name-title-igor,
 .name-title-olga,
