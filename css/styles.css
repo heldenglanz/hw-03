@@ -51,7 +51,7 @@ img {
 }
 .border{ 
  
-  min-width: 1600px;
+ 
 border-bottom: 1px solid #ECECEC;
 }
 
@@ -424,7 +424,7 @@ color: var(--button-color);
   display: flex;
   align-items: center;
  justify-content: center;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 .images-point:not(:last-child){
@@ -444,7 +444,7 @@ color: var(--button-color);
 }
 .team-title {
 
-  padding-top: 94px;
+  margin-top: 94px;
   
 }
 .team-set{
@@ -523,7 +523,7 @@ margin: auto;
 .footer-navigation-set {
   display: flex;
  
-padding-top: 20px;
+margin-top: 20px;
  flex-direction: column;
  
 }
@@ -550,7 +550,7 @@ padding-top: 20px;
 }
 
 .footer-navigation-point:not(:last-child){
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .address {
   
