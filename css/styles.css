@@ -127,6 +127,8 @@ display: none;
   max-width: 1600px;
 justify-content: center;
   margin: auto;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .portfolio-images-container {
@@ -206,8 +208,6 @@ margin-top: 20px;
 }
 .mail {
   
-  
- 
   color: #757575;
 }
 .phone-number {
@@ -354,18 +354,13 @@ color: var(--button-color);
  justify-content: space-between;
  list-style-type: none;
  width: 1170px;
- margin-top: 94px;
- margin-bottom: 94px;
+ padding-top: 94px;
+ 
 }
 .features-points{
  
   display: flex;
   justify-content: space-between;
-  
-
-  
-  margin-top: 94px;
-  margin-bottom: 94px;
   
 }
 .feature-points:not(:last-child){
@@ -450,8 +445,9 @@ color: var(--button-color);
  align-items: center;
   min-width: 1600px;
 padding-top: 94px;
+padding-bottom: 94px;
   background: #F5F4FA;
-  padding-bottom: 94px;
+  
  
 }
 .team-title {
