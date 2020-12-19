@@ -124,7 +124,7 @@ display: none;
 .portfolio {
   display: block;
   align-items: center;
-  max-width: 1600px;
+  
 justify-content: center;
   margin: auto;
   padding-bottom: 94px;
@@ -151,9 +151,9 @@ padding-bottom: 94px;
 .images-portfolio-set {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  
   justify-content: center;
-  margin: auto;
+  
 margin-top: -20px;
   margin-left: -20px;
 }
@@ -270,7 +270,7 @@ margin-top: 20px;
 .first-section {
   align-items: center;
   display: flex;
-  min-width: 1600px;
+  
   
   justify-content: center;
   margin: auto;
@@ -443,7 +443,7 @@ color: var(--button-color);
   flex-direction: column;
   justify-content: center;
  align-items: center;
-  min-width: 1600px;
+  
 padding-top: 94px;
 padding-bottom: 94px;
   background: #F5F4FA;
