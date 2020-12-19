@@ -17,6 +17,7 @@ box-sizing: border-box;
 *,
 *::before,
 *::after{
+ 
 margin-left: auto;
 margin-right: auto;
 
@@ -48,14 +49,26 @@ img {
 /*--------header-------*/
 .header {
  
+  margin: auto;
   
-  align-items: center;
   justify-content: center;
   display: flex;
   
   padding-top: 32px;
   padding-bottom: 32px;
   
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 215px;
+  margin-right: 215px;
+
+ 
+ 
+ 
 }
 .border{ 
  
@@ -90,8 +103,9 @@ border-bottom: 1px solid #ECECEC;
 }
 .navigation-set {
   display: flex;
-justify-content: space-between;
-padding-right: 331px;
+justify-content: center;
+
+margin-right: 331px;
 }
 
 
@@ -111,13 +125,7 @@ margin-right: 40px;
 .header .mail {
 margin-right: 50px;
 }
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
- 
- 
-}
+
 .portfolio-title {
 display: none;
 }
@@ -207,24 +215,24 @@ margin-top: 20px;
   letter-spacing: 0.02em;
 }
 .mail {
-  
+  width: 135px;
   color: #757575;
 }
 .phone-number {
-  
+  width: 122px;
   color: #757575;
   
 }
 .navigation-studio {
-  
+  width: 49px;
   color:#2196F3;
 }
 .navigation-portfolio {
-  
+  width: 77px;
   color: #212121;
 }
 .navigation-contacts {
-  
+  width: 68px;
   color: #212121;
 }
 .navigation-studio:hover,
@@ -253,6 +261,7 @@ margin-top: 20px;
 .phone-number-footer {
   text-decoration: none;
   cursor: pointer;
+  
 }
 
 .navigation-set,
@@ -510,7 +519,7 @@ align-items: center;
 .footer {
   
   display: flex;
-   flex-direction: row;
+   
   
   margin: auto;
   margin-bottom: auto;
