@@ -17,7 +17,7 @@ box-sizing: border-box;
 *,
 *::before,
 *::after{
- 
+ margin: auto;
 margin-left: auto;
 margin-right: auto;
 
@@ -53,7 +53,7 @@ img {
   
   justify-content: center;
   display: flex;
-  
+  min-width: 1170px;
   padding-top: 32px;
   padding-bottom: 32px;
   
@@ -132,8 +132,9 @@ display: none;
 .portfolio {
   display: block;
   align-items: center;
+ 
   
-justify-content: center;
+ justify-content: center;
   margin: auto;
   padding-bottom: 94px;
   padding-top: 94px;
@@ -280,7 +281,7 @@ margin-top: 20px;
   align-items: center;
   display: flex;
   
-  
+ 
   justify-content: center;
   margin: auto;
   background-color: #2f303a;
@@ -356,15 +357,19 @@ color: var(--button-color);
 }
 /*---------*/
 /*----features---*/
+.features-section{
+  display: flex;
+  justify-content: center;
+}
 .features {
- margin: auto;
+margin: auto;
  align-items: center;
  display: flex;
- justify-content: space-between;
+ justify-content: space-around;
  list-style-type: none;
  width: 1170px;
  padding-top: 94px;
- 
+
 }
 .features-points{
  
@@ -373,10 +378,10 @@ color: var(--button-color);
   
 }
 .feature-points:not(:last-child){
-  margin-right: 30px;
+  
 }
 .feature-box {
- padding-right: 30px;
+ 
   width: 270px;
 }
 .feature-title-one,
@@ -419,7 +424,7 @@ color: var(--button-color);
 }
 .portfolio-title-first,
 .team-title {
-  
+  margin: auto;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -436,11 +441,14 @@ color: var(--button-color);
   justify-content: center;
 }
 .images-set {
- 
+ margin-left: 215px;
+ margin-right: 215px;
+ margin: auto;
   display: flex;
   align-items: center;
  justify-content: center;
-  
+  min-width: 1170px;
+
 }
 
 .images-point:not(:last-child){
@@ -519,7 +527,7 @@ align-items: center;
 .footer {
   
   display: flex;
-   
+   min-width: 1170px;
   
   margin: auto;
   margin-bottom: auto;
