@@ -46,13 +46,17 @@ img {
   max-width: 100%;
   height: auto;
 }
-.header,
-.first-section,
+
+
 .features-section,
 .portfolio,
-.team-container,
-.footer {
+.team-container{
   min-width: 1170px;
+}
+.header,
+.first-section,
+.footer{
+  min-width: 1600px;
 }
 /*--------header-------*/
 .header {
@@ -168,9 +172,9 @@ padding-bottom: 94px;
 .images-portfolio-set {
   display: flex;
   flex-wrap: wrap;
-  
+ min-width: 1200px;
   justify-content: center;
-  
+  margin: auto;
 margin-top: -20px;
   margin-left: -20px;
 }
