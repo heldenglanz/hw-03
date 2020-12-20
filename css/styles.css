@@ -46,6 +46,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+.header,
+.first-section,
+.features-section,
+.portfolio,
+.team-container,
+.footer {
+  min-width: 1170px;
+}
 /*--------header-------*/
 .header {
  
